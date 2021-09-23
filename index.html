@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resolvedor de sistemas</h1>
+    <h2>Digite os coeficientes e calcule os valores das incógnitas</h2>
+    <br>
+
+    <h3>Duas equações</h3>
+    <div>
+        <input class="inputField" name="" id="a11" maxlength="3">x +
+        <input class="inputField" name="" id="a12" maxlength="3">y =
+        <input class="inputField" name="" id="a13" maxlength="3">
+    </div>
+    <div>
+        <input class="inputField" name="" id="a21" maxlength="3">x +
+        <input class="inputField" name="" id="a22" maxlength="3">y =
+        <input class="inputField" name="" id="a23" maxlength="3"> <br> <br>
+        <button onclick="calcular1()">Calcular</button>
+    </div>
+    <br>
+    <div id="res"></div>
+
+    <br> <br> <br> 
+
+    <h3>Três equações</h3>
+    <div>
+        <input class="inputField" name="" id="Sa11" maxlength="3">x +
+        <input class="inputField" name="" id="Sa12" maxlength="3">y +
+        <input class="inputField" name="" id="Sa13" maxlength="3">z =
+        <input class="inputField" name="" id="Sa14" maxlength="3">
+    </div>
+    <div>
+        <input class="inputField" name="" id="Sa21" maxlength="3">x +
+        <input class="inputField" name="" id="Sa22" maxlength="3">y +
+        <input class="inputField" name="" id="Sa23" maxlength="3">z =
+        <input class="inputField" name="" id="Sa24" maxlength="3">
+    </div>
+
+    <div>
+        <input class="inputField" name="" id="Sa31" maxlength="3">x +
+        <input class="inputField" name="" id="Sa32" maxlength="3">y +
+        <input class="inputField" name="" id="Sa33" maxlength="3">z =
+        <input class="inputField" name="" id="Sa34" maxlength="3"> <br> <br>
+        <button onclick="calcular2()">Calcular</button>
+    </div>
+    <br>
+    <div id="res2"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
