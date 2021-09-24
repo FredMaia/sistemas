@@ -56,7 +56,7 @@ function calcular2 () {
       let y = DY / D
       let z = DZ / D
 
-      res2.innerHTML = `x = ${x.toFixed(1)} <br> y = ${y.toFixed(1)} <br> z = ${z.toFixed(1)}`
+      res2.innerHTML = `x = ${x} <br> y = ${y} <br> z = ${z}`
       
     } else {
       res2.innerHTML = "Sistema impossível ou sistema possível indeterminado"
