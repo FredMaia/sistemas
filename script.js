@@ -17,7 +17,7 @@ function calcular1 () {
       let x = DX / D
       let y = DY / D
 
-      res.innerHTML = `x = ${x.toFixed(1)}, y = ${y.toFixed(1)}`
+      res.innerHTML = `x = ${x}, y = ${y}`
 
     } else {
       res.innerHTML = "Sistema impossível ou sistema possível indeterminado"
